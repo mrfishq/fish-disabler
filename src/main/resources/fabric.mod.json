@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "fish-disabler",
+	"version": "${version}",
+	"name": "fish-disabler",
+	"description": "Disabling demo mode from minecraft. dm me for sources. (mc_tx) discord",
+	"authors": [
+		"Fish"
+	],
+	"contact": {
+		"homepage": "https://github.com/mrfishq/"
+	},
+	"license": "MIT",
+	"icon": "assets/fish-disabler/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.fish.disabler.Fishdisabler"
+		],
+		"fabric-datagen": [
+			"com.fish.disabler.FishdisablerDataGenerator"
+		]
+	},
+	"mixins": [
+		"fish-disabler.mixins.json"
+	],
+	"refmap": "fish-disabler.refmap.json",
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.5",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

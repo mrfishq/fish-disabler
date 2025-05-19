@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"package": "com.fish.disabler.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"refmap": "fish-disabler.refmap.json",
+	"mixins": [
+		"DisablerMixin",
+		"NameChanger"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
