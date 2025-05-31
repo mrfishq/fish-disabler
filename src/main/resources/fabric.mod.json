@@ -3,12 +3,13 @@
 	"id": "fish-disabler",
 	"version": "${version}",
 	"name": "fish-disabler",
-	"description": "Disabling demo mode from minecraft. dm me for sources. (mc_tx) discord",
+	"description": "Disabling demo mode from minecraft. sources on github.",
 	"authors": [
 		"Fish"
 	],
 	"contact": {
-		"homepage": "https://github.com/mrfishq/"
+		"homepage": "https://github.com/mrfishq/",
+		"sources": "https://github.com/mrfishq/fish-disabler"
 	},
 	"license": "MIT",
 	"icon": "assets/fish-disabler/icon.png",
