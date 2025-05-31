@@ -24,7 +24,6 @@
 	"mixins": [
 		"fish-disabler.mixins.json"
 	],
-	"refmap": "fish-disabler.refmap.json",
 	"depends": {
 		"fabricloader": ">=0.16.14",
 		"minecraft": "~1.21.5",
